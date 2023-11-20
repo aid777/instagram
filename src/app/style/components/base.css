@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1, h2, h3, p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body, div, input, a, li, ul, textarea, span, p, h1, h2, h3, ol, aside, main{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}

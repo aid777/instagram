@@ -1,0 +1,17 @@
+.second-in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.second-in p{
+    font-size: 12px;
+}
+
+.input{
+    height: 40px;
+    padding: 1px, 9px, 1px, 1px;
+    width: 100%;
+    outline: none;
+}

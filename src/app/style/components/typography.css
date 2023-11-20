@@ -1,0 +1,15 @@
+h1{
+    font-size: 17px;
+    font-weight: 600;
+    color: #737373;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 20px;
+}
+
+.card p{
+    font-size: 14px;
+}
+.card:nth-child(2){
+    padding: 15px 0;
+}
