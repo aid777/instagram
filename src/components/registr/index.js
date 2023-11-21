@@ -2,7 +2,10 @@
 
 import instaRegistration from '../../app/images/buttonInsta.png'
 import facebookReg from '../../app/images/facebookRegistration.png'
+import Google from '../../app/images/GooglePlay.png'
+import Micro from '../../app/images/Microsoft.png'
 import Image from 'next/image'
+
 export default function Registr(){
     return(
         <section className='login-page'>
@@ -35,6 +38,33 @@ export default function Registr(){
             <div className='card'>
                 <p>Have an account?Log in</p>
             </div>
+            <div className='card'>
+                <p>Get the App.</p>
+                <Image src={Google}/>
+                <Image src={Micro}/>
+            </div>
+            <div className="footer">
+                <div className="footer-upper">
+                    <a href="">Meta</a>
+                    <a href="">About</a>
+                    <a href="">Blog</a>
+                    <a href="">Jobs</a>
+                    <a href="">Help</a>
+                    <a href="">API</a>
+                    <a href="">Privace</a>
+                    <a href="">Terms</a>
+                    <a href="">Top Accounts</a>
+                    <a href="">Locations</a>
+                    <a href="">Instagram</a>
+                    <a href="">Contact Uploading & Non-Users</a>
+                    <a href="">Meta Verified</a>
+                </div>
+                <div className="footer-under">
+                    <a href="">English</a>
+                    <a href="">© 2023 Instagram from Meta</a>
+                </div>
+            </div>
         </section>
+        
     )
 }

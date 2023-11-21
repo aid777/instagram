@@ -1,0 +1,23 @@
+.footer{
+    text-align: center;
+    margin: 20px;
+}
+
+.footer-upper{
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+}
+
+.footer-under{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    font-size: 11px;
+    color: #737373;
+    text-decoration: none;
+}

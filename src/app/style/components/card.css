@@ -10,3 +10,8 @@
 .card-inner img{
     margin-top: 40px;
 }
+
+.card:nth-child(3){
+    border: none;
+    box-shadow: none;
+}
