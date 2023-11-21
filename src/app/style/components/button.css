@@ -1,0 +1,40 @@
+.button-primary-bordered{
+    display: flex;
+    align-items: center;
+    background-color: #0095F6;
+    border: none;
+    border-radius: 8px;
+    justify-content: center;
+    width: 100%;
+    padding: 0 40px;
+    gap: 25px;
+    cursor: pointer;
+}
+
+.us{
+    margin-bottom: 20px;
+}
+
+.button-primary-bordered p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+.button{
+    display: flex;
+    align-items: center;
+    background-color: #0095F6;
+    border: none;
+    border-radius: 8px;
+    justify-content: center;
+    width: 100%;
+    padding: 0 40px;
+    gap: 25px;
+    cursor: pointer;
+}
+.button-primary{
+    padding: 10px 0;
+    margin-bottom: 30px;
+    color: #fff;
+    opacity: 70%;
+}
